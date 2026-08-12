@@ -16,6 +16,12 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 "type": "stdio",
 "allowed_extensions": ["plasma-browser-integration@kde.org"]
 }
+
+# pywalfox
+1. sudo dnf install pipx
+2. pipx install pywalfox
+3. pywalfox install
+4. install the extension
   
 # nvidia
 https://docs.fedoraproject.org/en-US/gaming/drivers/
