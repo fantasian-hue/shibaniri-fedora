@@ -12,7 +12,7 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors
+sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv
  
 # eww
 * https://elkowar.github.io/eww/
@@ -21,3 +21,9 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 * https://docs.bswen.com/blog/2025-11-16-rustup-command-not-found/ -> to add symlinks from cargo/bin
 * install eww to target folder
 * sudo ln -sf ~/eww/target/release/eww /usr/local/bin/eww (eww as an example) -> symlink
+
+# chmod
+* chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts
+
+# todo
+sudo dnf install gtklock swayidle
