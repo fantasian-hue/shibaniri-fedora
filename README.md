@@ -11,4 +11,8 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install nautilus
+sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install nautilus && sudo dnf install git
+
+# eww
+* https://elkowar.github.io/eww/
+* install rust & cargo: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
