@@ -11,7 +11,7 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install nautilus && sudo dnf install git
+sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration 
  
 # eww
 * https://elkowar.github.io/eww/
