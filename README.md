@@ -17,13 +17,11 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 "allowed_extensions": ["plasma-browser-integration@kde.org"]
 }
 
-
-  
 # nvidia
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg
+sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg qbittorrent
  
 # eww
 * https://elkowar.github.io/eww/
