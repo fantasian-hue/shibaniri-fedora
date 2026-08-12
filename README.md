@@ -1,4 +1,5 @@
 sudo dnf install niri
+
 dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 
 # firefox
@@ -10,4 +11,4 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf install thunar && sudo 
+sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install nautilus
