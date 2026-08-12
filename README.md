@@ -35,7 +35,7 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 * https://zed.dev/download
 
 # chmod
-* chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts
+* chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts && chmod +x ~/.config/zed/wal/pywal-to-zed.sh
 
 # todo
 sudo dnf install gtklock swayidle
