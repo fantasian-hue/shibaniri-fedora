@@ -17,11 +17,7 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 "allowed_extensions": ["plasma-browser-integration@kde.org"]
 }
 
-# pywalfox
-1. sudo dnf install pipx
-2. pipx install pywalfox
-3. pywalfox install
-4. install the extension
+
   
 # nvidia
 https://docs.fedoraproject.org/en-US/gaming/drivers/
@@ -36,6 +32,10 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 * https://docs.bswen.com/blog/2025-11-16-rustup-command-not-found/ -> to add symlinks from cargo/bin
 * install eww to target folder
 * sudo ln -sf ~/eww/target/release/eww /usr/local/bin/eww (eww as an example) -> symlink
+
+# matugenfox
+* https://github.com/Ubaidullah-Web-Dev/MatugenFox
+* install extension
 
 # zed
 * https://zed.dev/download
