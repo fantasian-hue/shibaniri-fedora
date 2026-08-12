@@ -21,5 +21,6 @@ sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install naut
  
 # eww
 * https://elkowar.github.io/eww/
+* sudo dnf install glib2-devel pkgconf-pkg-config gdk-pixbuf2-devel cairo-gobject-devel libdbusmenu-gtk3-devel gtk-layer-shell-devel
 * install rust & cargo: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 * https://docs.bswen.com/blog/2025-11-16-rustup-command-not-found/ -> to add symlinks from cargo/bin
