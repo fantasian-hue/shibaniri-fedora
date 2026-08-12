@@ -31,6 +31,9 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 * install eww to target folder
 * sudo ln -sf ~/eww/target/release/eww /usr/local/bin/eww (eww as an example) -> symlink
 
+# zed
+* https://zed.dev/download
+
 # chmod
 * chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts
 
