@@ -7,6 +7,15 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 * sudo dnf makecache --refresh
 * sudo dnf install firefox
 * plasma-browser-integration - then follow steps to change about:preferences in firefox (https://www.reddit.com/r/kde/comments/1te6lk8/the_best_method_to_fix_broken_mpris_thumbnails/)
+* i.e. you need to create a file ~/.mozilla/native-messaging-hosts/org.kde.plasma.browser_integration.json
+* with this as it's contents 
+{
+"name": "org.kde.plasma.browser_integration",
+"description": "Native connector for KDE Plasma",
+"path": "/usr/bin/plasma-browser-integration-host",
+"type": "stdio",
+"allowed_extensions": ["plasma-browser-integration@kde.org"]
+}
   
 # nvidia
 https://docs.fedoraproject.org/en-US/gaming/drivers/
