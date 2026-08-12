@@ -2,6 +2,12 @@ sudo dnf install niri
 
 dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 
+sudo dnf install glib2-devel pkgconf-pkg-config
+sudo dnf install gdk-pixbuf2-devel
+sudo dnf install cairo-gobject-devel
+sudo dnf install libdbusmenu-gtk3-devel
+sudo dnf install gtk-layer-shell-devel
+
 # firefox
 * sudo dnf config-manager addrepo --id=mozilla --set=baseurl=https://packages.mozilla.org/rpm/firefox --set=gpgkey=https://packages.mozilla.org/rpm/firefox/signing-key.gpg --set=gpgcheck=1 --set=repo_gpgcheck=0 --set=priority=10
 * sudo dnf makecache --refresh
@@ -12,7 +18,7 @@ https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
 sudo dnf install thunar && sudo dnf install mate-polkit && sudo dnf install nautilus && sudo dnf install git
-
+ 
 # eww
 * https://elkowar.github.io/eww/
 * install rust & cargo: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
