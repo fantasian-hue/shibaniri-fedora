@@ -43,3 +43,6 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 
 # todo
 sudo dnf install gtklock swayidle swaybg
+
+# notes
+* must turn autostart on for input-remapper
