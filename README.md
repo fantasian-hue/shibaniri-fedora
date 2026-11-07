@@ -21,7 +21,7 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg qbittorrent fastfetch ffmpegthumbnailer snes9x-gtk ly
+sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg qbittorrent fastfetch ffmpegthumbnailer snes9x-gtk greetd
  
 # eww
 * https://elkowar.github.io/eww/
@@ -41,8 +41,8 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 # chmod
 * chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts && chmod +x ~/.config/zed/wal/pywal-to-zed.sh
 
-# ly
-sudo systemctl enable ly@tty2.service
+# greetd
+sudo systemctl enable greetd.service
 
 # todo
 sudo dnf install gtklock swayidle swaybg
