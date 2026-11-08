@@ -57,6 +57,7 @@ tclass=process permissive=0
 * font was acting up, so had to change tty font
 * sudo nano /etc/vconsole.conf
 * changed font to "cp865-8x14", terminal fonts for fedora stored in /usr/lib/kbd/consolefonts/
+* sudo nano /etc/ly/config.ini
 
 # todo
 sudo dnf install gtklock swayidle
