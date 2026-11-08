@@ -59,7 +59,7 @@ tclass=process permissive=0
 * changed font to "cp865-8x14", terminal fonts for fedora stored in /usr/lib/kbd/consolefonts/
 
 # todo
-sudo dnf install gtklock swayidle swaybg
+sudo dnf install gtklock swayidle
 
 # notes
 * must turn autostart on for input-remapper
