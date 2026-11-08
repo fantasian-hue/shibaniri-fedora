@@ -41,6 +41,9 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 # chmod
 * chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts && chmod +x ~/.config/zed/wal/pywal-to-zed.sh
 
+# swayidle
+set up swayidle on startup - https://niri-wm.github.io/niri/Example-systemd-Setup.html
+
 # ly
 * sudo systemctl enable ly@tty2.service
 * had issues with fedora, follow steps here: https://codeberg.org/fairyglade/ly under Fedora
