@@ -54,6 +54,10 @@ tclass=process permissive=0
 * sudo ausearch -m avc -ts recent | audit2allow -M ly-local
 * sudo semodule -i ly-local.pp
 
+* font was acting up, so had to change tty font
+* sudo nano /etc/vconsole.conf
+* changed font to "cp865-8x14", terminal fonts for fedora stored in /usr/lib/kbd/consolefonts/
+
 # todo
 sudo dnf install gtklock swayidle swaybg
 
