@@ -21,7 +21,7 @@ dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 https://docs.fedoraproject.org/en-US/gaming/drivers/
 
 # installs
-sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg qbittorrent fastfetch ffmpegthumbnailer snes9x-gtk greetd
+sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripgrep input-remapper plasma-browser-integration lm_sensors sysstat cava feh mpv rsync swaybg qbittorrent fastfetch ffmpegthumbnailer snes9x-gtk ly audit2search
  
 # eww
 * https://elkowar.github.io/eww/
@@ -41,8 +41,18 @@ sudo dnf thunar mate-polkit nautilus git playerctl pamixer pulseaudio-utils ripg
 # chmod
 * chmod -R +x ~/.config/eww/scripts && chmod -R +x ~/.config/niri/scripts && chmod +x ~/.config/zed/wal/pywal-to-zed.sh
 
-# greetd
-sudo systemctl enable greetd.service
+# ly
+* sudo systemctl enable ly@tty2.service
+* had issues with fedora, follow steps here: https://codeberg.org/fairyglade/ly under Fedora
+* sudo ausearch -m avc -ts recent
+* If SELinux is denying process context transition, you will see this output:
+* denied { transition } for pid=XXXX comm="ly" path="/usr/bin/bash"
+scontext=system_u:system_r:unconfined_service_t:s0
+tcontext=unconfined_u:unconfined_r:unconfined_t:s0
+tclass=process permissive=0
+* install audit2search
+* sudo ausearch -m avc -ts recent | audit2allow -M ly-local
+* sudo semodule -i ly-local.pp
 
 # todo
 sudo dnf install gtklock swayidle swaybg
