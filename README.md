@@ -67,3 +67,9 @@ sudo dnf install gtklock swayidle
 
 # notes
 * must turn autostart on for input-remapper
+
+# auto mount drives
+* lsblk -f
+* find UUID
+* sudo nano /etc/fstab/
+* add UUID="UUID found in lsblk -f" /mnt/ ntfs or ext4 defaults 0 2
