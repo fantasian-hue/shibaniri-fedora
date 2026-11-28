@@ -1,5 +1,7 @@
 sudo dnf install niri
 
+sudo dnf group install multimedia
+
 dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 
 # firefox
